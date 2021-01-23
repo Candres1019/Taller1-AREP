@@ -22,6 +22,7 @@ public class App {
 
     /**
      * Metodo principal de la aplicacion.
+     * @param args - ""
      */
     public static void main( String[] args ) {
         LectorArchivo lectorArchivo = new LectorArchivo(archivo);
@@ -33,7 +34,7 @@ public class App {
                     System.out.println("-----------------------------------------------");
                     System.out.println("Resultados Conjunto " + (i+1));
                     System.out.println("Media : " + decimalFormat.format(calculadoraEstadistica.calcularMedia()));
-                    System.out.println("Desviación Estandar : " + decimalFormat.format(calculadoraEstadistica.calcularDesviacionEstandar()));
+                    System.out.println("Desviacion Estandar : " + decimalFormat.format(calculadoraEstadistica.calcularDesviacionEstandar()));
                 }
                 break;
             case "UniConjunto" :
@@ -42,7 +43,7 @@ public class App {
                 System.out.println("-----------------------------------------------");
                 System.out.println("Resultados del Conjunto ");
                 System.out.println("Media : " + decimalFormat.format(calculadoraEstadistica.calcularMedia()));
-                System.out.println("Desviación Estandar : " + decimalFormat.format(calculadoraEstadistica.calcularDesviacionEstandar()));
+                System.out.println("Desviacion Estandar : " + decimalFormat.format(calculadoraEstadistica.calcularDesviacionEstandar()));
                 break;
         }
     }

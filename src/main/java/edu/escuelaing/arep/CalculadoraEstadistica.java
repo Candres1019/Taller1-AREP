@@ -64,6 +64,7 @@ public class CalculadoraEstadistica {
 
     /**
      * Metodo getter de la variable datos
+     * @return - LinkedListImp de datos
      */
     public LinkedListImp getDatos() {
         return datos;
@@ -71,6 +72,7 @@ public class CalculadoraEstadistica {
 
     /**
      * Metodo setter de la variable datos
+     * @param datos - Lista de datos de tipo LinkedListImp
      */
     public void setDatos(LinkedListImp datos) {
         this.datos = datos;

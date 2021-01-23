@@ -18,7 +18,7 @@ public class LinkedListImp implements List {
 
     /**
      * Inserta un nuevo nodo al inicio de la lista.
-     * @param datos
+     * @param datos - Valor double a agregar
      */
     public void addFirst(Double datos){
         Node node = new Node(datos);
@@ -29,7 +29,7 @@ public class LinkedListImp implements List {
 
     /**
      * Inserta un nuevo nodo al final de la lista.
-     * @param datos
+     * @param datos - Valor double a agregar
      */
     public void addLast(Double datos){
         listSize = listSize + 1;
@@ -49,8 +49,8 @@ public class LinkedListImp implements List {
 
     /**
      * Inserta un nuevo nodo en medio de la lista dado un nodo anterior.
-     * @param previusN  Nodo anterior donde insertar
-     * @param datos
+     * @param previusN - Nodo anterior donde insertar
+     * @param datos - Valor double a agregar
      */
     public void addMiddle(Node previusN, Double datos){
         try{
@@ -67,6 +67,7 @@ public class LinkedListImp implements List {
 
     /**
      * Obtener el nodo principal de la lista enlazada.
+     * @return - Cabeza de la lista
      */
     public Node getHead() {
         return head;
@@ -74,6 +75,7 @@ public class LinkedListImp implements List {
 
     /**
      * Obtener la completa en una cadena de datos.
+     * @return - Datos de la lista en un string.
      */
     public String linkedListToString(){
         StringBuilder listaStr = new StringBuilder();
@@ -100,7 +102,7 @@ public class LinkedListImp implements List {
 
     /**
      * Inserta un nuevo nodo al final de la lista
-     * @param o
+     * @param o - Valor double a agregar
      */
     @Override
     public boolean add(Object o) {
@@ -117,8 +119,8 @@ public class LinkedListImp implements List {
 
     /**
      * Inserta un nuevo nodo a la lista dada una posición
-     * @param index
-     * @param element
+     * @param index - Posicion en la lista donde agregar el double
+     * @param element - Valor double a agregar
      */
     @Override
     public void add(int index, Object element) {
@@ -150,7 +152,7 @@ public class LinkedListImp implements List {
 
     /**
      * Ingresa los datos de un arreglo a la lista
-     * @param c
+     * @param c - Lista de valores Double a agregar.
      */
     @Override
     public boolean addAll(Collection c) {
@@ -168,7 +170,7 @@ public class LinkedListImp implements List {
 
     /**
      * Eliminar un nodo dada una posicion
-     * @param index
+     * @param index - Posicion del nodo a eliminar.
      */
     @Override
     public Object remove(int index) {
@@ -246,8 +248,9 @@ public class LinkedListImp implements List {
 
     /**
      * Metodo No Implementado
-     * @param index
-     * @param c
+     * @param index - No implementado
+     * @param c - No implementado
+     * @return - No implementado
      */
     @Override
     public boolean addAll(int index, Collection c) {
@@ -256,7 +259,8 @@ public class LinkedListImp implements List {
 
     /**
      * Metodo No Implementado
-     * @param o
+     * @param o - No implementado
+     * @return - No implementado
      */
     @Override
     public boolean contains(Object o) {

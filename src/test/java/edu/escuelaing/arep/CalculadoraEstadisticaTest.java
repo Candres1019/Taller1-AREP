@@ -2,7 +2,6 @@ package edu.escuelaing.arep;
 
 import edu.escuelaing.arep.util.LinkedListImp;
 import junit.framework.Assert;
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
