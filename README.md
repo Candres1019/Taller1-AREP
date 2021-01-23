@@ -22,11 +22,11 @@ Adicionalmente se recomienda tener descargado los siguientes programas:
 
 1. Clonación o Descarga del Proyecto:
 
-- Para **Clonar** el proyecto utilice el siguiente comando en la ventana de comandos:
-  ```
-  git clone https://github.com/Candres1019/Taller1-AREP.git
-  ```
-- Para **Descargar** el proyecto de click [aqui](https://github.com/Candres1019/Taller1-AREP/archive/main.zip) ,
+   - Para **Clonar** el proyecto utilice el siguiente comando en la ventana de comandos:
+      ```
+      git clone https://github.com/Candres1019/Taller1-AREP.git
+      ```
+   - Para **Descargar** el proyecto de click [aqui](https://github.com/Candres1019/Taller1-AREP/archive/main.zip) ,
   la descarga comenzara de manera automatica.
 
 2. En una ventana de comandos ejecute el siguiente comando, dentro de la carpeta del proyecto:
