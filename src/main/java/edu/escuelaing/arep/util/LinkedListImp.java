@@ -1,4 +1,4 @@
-package edu.escuelaing.arep;
+package edu.escuelaing.arep.util;
 
 import java.util.Collection;
 import java.util.Iterator;
@@ -17,7 +17,7 @@ public class LinkedListImp implements List {
     /* Metodos Nuevos Para la LinkedList */
 
     /**
-     * Inserta un nuevo nodo al inicio de la lista
+     * Inserta un nuevo nodo al inicio de la lista.
      * @param datos
      */
     public void addFirst(Double datos){
@@ -28,7 +28,7 @@ public class LinkedListImp implements List {
     }
 
     /**
-     * Inserta un nuevo nodo al final de la lista
+     * Inserta un nuevo nodo al final de la lista.
      * @param datos
      */
     public void addLast(Double datos){
@@ -48,7 +48,7 @@ public class LinkedListImp implements List {
     }
 
     /**
-     * Inserta un nuevo nodo en medio de la lista dado un nodo anterior
+     * Inserta un nuevo nodo en medio de la lista dado un nodo anterior.
      * @param previusN  Nodo anterior donde insertar
      * @param datos
      */
@@ -63,6 +63,18 @@ public class LinkedListImp implements List {
         }
     }
 
+    // Metodos Getter y Setter
+
+    /**
+     * Obtener el nodo principal de la lista enlazada.
+     */
+    public Node getHead() {
+        return head;
+    }
+
+    /**
+     * Obtener la completa en una cadena de datos.
+     */
     public String linkedListToString(){
         StringBuilder listaStr = new StringBuilder();
         Node last = head;
@@ -97,6 +109,7 @@ public class LinkedListImp implements List {
             this.addLast(number);
             return true;
         }catch (Exception e){
+            e.printStackTrace();
             System.out.println("Error, al ingresar nuevo dato, revise de nuevo.");
             return false;
         }
@@ -241,71 +254,114 @@ public class LinkedListImp implements List {
         return false;
     }
 
+    /**
+     * Metodo No Implementado
+     * @param o
+     */
     @Override
     public boolean contains(Object o) {
         return false;
     }
 
+    /**
+     * Metodo No Implementado
+     */
     @Override
     public Iterator iterator() {
         return null;
     }
 
+    /**
+     * Metodo No Implementado
+     */
     @Override
     public Object[] toArray() {
         return new Object[0];
     }
 
+    /**
+     * Metodo No Implementado
+     */
     @Override
     public Object get(int index) {
         return null;
     }
 
+    /**
+     * Metodo No Implementado
+     */
     @Override
     public Object set(int index, Object element) {
         return null;
     }
 
+    /**
+     * Metodo No Implementado
+     */
     @Override
     public int indexOf(Object o) {
         return 0;
     }
 
+    /**
+     * Metodo No Implementado
+     */
     @Override
     public int lastIndexOf(Object o) {
         return 0;
     }
 
+    /**
+     * Metodo No Implementado
+     */
     @Override
     public ListIterator listIterator() {
         return null;
     }
 
+    /**
+     * Metodo No Implementado
+     */
     @Override
     public ListIterator listIterator(int index) {
         return null;
     }
 
+    /**
+     * Metodo No Implementado
+     */
     @Override
     public List subList(int fromIndex, int toIndex) {
         return null;
     }
 
+    /**
+     * Metodo No Implementado
+     */
     @Override
     public boolean retainAll(Collection c) {
         return false;
     }
 
+    /**
+     * Metodo No Implementado
+     */
     @Override
     public boolean removeAll(Collection c) {
         return false;
     }
 
+    /**
+     * Metodo No Implementado
+     */
     @Override
     public boolean containsAll(Collection c) {
         return false;
     }
 
+    /**
+     * Metodo No Implementado
+     */
     @Override
     public Object[] toArray(Object[] a) {
         return new Object[0];
