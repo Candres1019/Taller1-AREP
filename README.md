@@ -6,17 +6,17 @@ de datos utilizada es una implementación de una Lista Enlazada.
 
 ## Información Del Proyecto
 
-Haga click en este enlace para ver la documentación completa del proyecto.
+Haga click [aqui](Reporte_Taller1AREP.pdf) para ver la documentación completa del proyecto.
 
 ### Pre-Requisitos
 
 Para correr este proyecto necesita los siguientes programas instalados, se adjuntan los
 links de como descargarlos:
-> - [Java 8](https://www.java.com/es/download/)
-> - [Apache Maven](http://maven.apache.org/download.html#Installation)
+> - [Como Instalar Java 8](https://www.java.com/es/download/)
+> - [Como Instalar Apache Maven](http://maven.apache.org/download.html#Installation)
 
 Adicionalmente se recomienda tener descargado los siguientes programas:
-> - [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+> - [Como Instalar Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 ### Instalación
 
