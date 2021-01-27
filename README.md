@@ -6,7 +6,9 @@ de datos utilizada es una implementación de una Lista Enlazada.
 
 ## Información Del Proyecto
 
-Haga click [aqui](Reporte_Taller1AREP.pdf) para ver la documentación completa del proyecto.
+* La documentación del las clases y los metodos del proyecto se encuentran en el directorio adjunto /Javadoc/apidocs.
+
+* Haga click [aqui](Reporte_Taller1AREP.pdf) para ver el reporte del proyecto.
 
 ### Pre-Requisitos
 
